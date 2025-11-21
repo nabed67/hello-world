@@ -6,3 +6,5 @@ jobs:
     steps:
       - name: print
         run: echo "Hello Nabed"
+      - name: version
+        run: lsb_release -a
